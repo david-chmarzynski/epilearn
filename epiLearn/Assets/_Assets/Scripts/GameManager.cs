@@ -14,10 +14,16 @@ public class GameManager : MonoBehaviour
             return;
         }
             Instance = this;
-            DontDestroyOnLoad(this.gameObject);
+            //DontDestroyOnLoad(this.gameObject);
     }
-        public void ChangeScene(string _sceneName)
-        {
-            SceneManager.LoadScene(_sceneName);
-        }
+
+    public void ChangeScene(string _sceneName)
+    {
+        SceneManager.LoadScene(_sceneName);
+    }
+
+    public void DestroyScene()
+    {
+        Destroy(this);
+    }
 }
