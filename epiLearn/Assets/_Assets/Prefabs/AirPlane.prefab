@@ -1076,6 +1076,7 @@ GameObject:
   - component: {fileID: 7527640682181515199}
   - component: {fileID: 8954236462354161816}
   - component: {fileID: 2391805453323031893}
+  - component: {fileID: 4870852964515224570}
   m_Layer: 0
   m_Name: Nose
   m_TagString: Untagged
@@ -1165,11 +1166,32 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3613567641014311022, guid: af5d41dfe0d464cd9beac71cbb7b82a0, type: 3}
+--- !u!65 &4870852964515224570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000884251548053431}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.618771, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0.8559101, y: 0, z: 0}
 --- !u!1001 &3415432199413590348
 PrefabInstance:
   m_ObjectHideFlags: 0

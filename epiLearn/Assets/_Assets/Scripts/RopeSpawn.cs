@@ -59,6 +59,7 @@ public class RopeSpawn : MonoBehaviour
             else
             {
                 tmp.GetComponent<CharacterJoint>().connectedBody = parentObject.transform.Find((parentObject.transform.childCount - 1).ToString()).GetComponent<Rigidbody>();
+                tmp.GetComponent<FixedJoint>().connectedBody = parentObject.transform.Find((parentObject.transform.childCount - 1).ToString()).GetComponent<Rigidbody>();
             }
         }
 
